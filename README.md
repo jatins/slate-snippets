@@ -35,7 +35,7 @@ const domNode = ReactEditor.toDOMNode(editor, node)
 
 #### Get closest block
 ```js
-const [blockNode, path] = Editor.above(editor, {match: n => editor.isBlock(n)})
+const [blockNode, path] = Editor.above(editor, {match: n => Editor.isBlock(n)})
 ```
 
 #### Get parent and path of node
